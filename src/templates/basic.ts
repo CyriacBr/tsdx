@@ -2,7 +2,13 @@ import { Template } from './template';
 
 const basicTemplate: Template = {
   name: 'basic',
-  dependencies: ['@types/jest', 'husky', 'tsdx', 'tslib', 'typescript'],
+  dependencies: [
+    '@types/jest',
+    'husky',
+    'cyriacbr-tsdx',
+    'tslib',
+    'typescript',
+  ],
   packageJson: {
     // name: safeName,
     version: '0.1.0',
@@ -16,16 +22,16 @@ const basicTemplate: Template = {
       node: '>=10',
     },
     scripts: {
-      start: 'tsdx watch',
-      build: 'tsdx build',
-      test: 'tsdx test',
-      lint: 'tsdx lint',
-      prepare: 'tsdx build',
+      start: 'cyriacbr-tsdx watch',
+      build: 'cyriacbr-tsdx build',
+      test: 'cyriacbr-tsdx test',
+      lint: 'cyriacbr-tsdx lint',
+      prepare: 'cyriacbr-tsdx build',
     },
     peerDependencies: {},
     husky: {
       hooks: {
-        'pre-commit': 'tsdx lint',
+        'pre-commit': 'cyriacbr-tsdx lint',
       },
     },
     prettier: {
