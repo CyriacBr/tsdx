@@ -1,12 +1,12 @@
 {
-  "name": "tsdx",
-  "version": "0.12.3",
+  "name": "@cyriacbr/tsdx",
+  "version": "0.12.33",
   "author": "Jared Palmer <jared@palmer.net>",
   "description": "Zero-config TypeScript package development",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaredpalmer/tsdx.git"
+    "url": "git+https://github.com/CyriacBr/tsdx.git"
   },
   "keywords": [
     "react",
@@ -15,10 +15,10 @@
     "rollup"
   ],
   "bugs": {
-    "url": "https://github.com/jaredpalmer/tsdx/issues"
+    "url": "https://github.com/CyriacBr/tsdx/issues"
   },
   "bin": {
-    "tsdx": "./dist/index.js"
+    "cyriacbr-tsdx": "./dist/index.js"
   },
   "scripts": {
     "prepare": "tsc -p tsconfig.json",
@@ -34,16 +34,6 @@
     "templates"
   ],
   "dependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/helper-module-imports": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.7.4",
-    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/plugin-transform-regenerator": "^7.4.5",
-    "@babel/plugin-transform-runtime": "^7.6.0",
-    "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
     "@rollup/plugin-commonjs": "^11.0.0",
     "@rollup/plugin-json": "^4.0.0",
     "@rollup/plugin-node-resolve": "^7.1.0",
@@ -54,12 +44,6 @@
     "@typescript-eslint/parser": "^2.12.0",
     "ansi-escapes": "^4.2.1",
     "asyncro": "^3.0.0",
-    "babel-eslint": "^10.0.3",
-    "babel-plugin-annotate-pure-calls": "^0.4.0",
-    "babel-plugin-dev-expression": "^0.2.1",
-    "babel-plugin-macros": "^2.6.1",
-    "babel-plugin-transform-async-to-promises": "^0.8.14",
-    "babel-plugin-transform-rename-import": "^2.3.0",
     "babel-traverse": "^6.26.0",
     "babylon": "^6.18.0",
     "camelcase": "^5.0.0",
@@ -90,7 +74,6 @@
     "progress-estimator": "^0.2.2",
     "rimraf": "^3.0.0",
     "rollup": "^1.27.8",
-    "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-terser": "^5.1.2",
     "rollup-plugin-typescript2": "^0.25.3",
