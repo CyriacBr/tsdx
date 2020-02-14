@@ -1,6 +1,6 @@
 {
   "name": "@cyriacbr/tsdx",
-  "version": "0.12.33",
+  "version": "0.12.34",
   "author": "Jared Palmer <jared@palmer.net>",
   "description": "Zero-config TypeScript package development",
   "license": "MIT",
@@ -101,6 +101,7 @@
     "@types/rollup-plugin-sourcemaps": "^0.4.2",
     "@types/sade": "^1.6.0",
     "@types/semver": "^7.1.0",
+    "babel-eslint": "^10.0.3",
     "doctoc": "^1.4.0",
     "husky": "^3.0.9",
     "pretty-quick": "^2.0.0",
