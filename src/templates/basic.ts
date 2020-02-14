@@ -5,7 +5,7 @@ const basicTemplate: Template = {
   dependencies: [
     '@types/jest',
     'husky',
-    'cyriacbr-tsdx',
+    '@cyriacbr/tsdx',
     'tslib',
     'typescript',
   ],
